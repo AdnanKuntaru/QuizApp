@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity"
+    android:background="@drawable/flag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:textColor="#C51162"
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is the current president of Nigeria?"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question1_opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Muhammadu Buhari" />
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question1_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Osulegun Obasanjo" />
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question1_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text=" Shehu Shagari" />
+        </RadioGroup>
+        <TextView
+            android:textColor="#C51162"
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="Who is the current vice president of Nigeria?"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question2_opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof Yemi Osinbajo" />
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question2_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atitku Abubakar" />
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question2_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adnan Junaidu" />
+        </RadioGroup>
+        <TextView
+            android:textColor="#C51162"
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="Who is the first Prime Minister of Nigeria?"
+            android:textSize="18sp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question3_opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Murtala Muhammad" />
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question3_opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sir Abubakar Tafabalewa" />
+
+            <RadioButton
+                android:textColor="#341f97"
+                android:id="@+id/question3_opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nmandi Azikwe" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question4"
+            android:textColor="#C51162"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question2_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="Which year Nigeria got it independence from British colonist "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/question4_answer"
+            android:layout_width="200dp"
+            android:hint="put your answer here"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            android:textColor="#C51162"
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="Which Year Nigeria became a republic ?"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/question5_answer"
+            android:layout_width="200dp"
+            android:hint="put your answer here"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/question6"
+            android:textColor="#C51162"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="Which year Muhammdu Buhari worn the presidential election ?"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/question6_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+          android:hint="put your answer here"
+            android:inputType="text" />
+
+        <TextView
+        android:id="@+id/question7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="___ and ___ are senate president and speaker house of representative of Nigeria?"
+        android:textSize="18sp"
+        android:textColor="#C51162"    />
+
+        <CheckBox
+            android:textColor="#341f97"
+            android:id="@+id/question7_opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Bukola Saraki" />
+
+        <CheckBox
+            android:textColor="#341f97"
+            android:id="@+id/question7_opt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Dino Melayo" />
+
+        <CheckBox
+            android:textColor="#341f97"
+            android:id="@+id/question7_opt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yakubu Dogara" />
+        <TextView
+            android:id="@+id/question8"
+            android:textColor="#C51162"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="__ and __ are flag bear of APC in 2015 presidential election"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:textColor="#341f97"
+            android:id="@+id/question8_opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Muhammadu Buhari" />
+
+        <CheckBox
+            android:textColor="#341f97"
+            android:id="@+id/question8_opt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Namadi Sambo" />
+
+        <CheckBox
+            android:textColor="#341f97"
+            android:id="@+id/question8_opt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prof Yemi Osinbajo" />
+
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitAnswers"
+            android:textColor="@color/colorAccent"
+            android:text="submit_answers" />
+    </LinearLayout>
+</ScrollView>
