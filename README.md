@@ -1,0 +1,1 @@
+# Quiz App This a Quiz Android Application developed by Muhammad Adnan Junaidu as a part of finished Google Africa Challenge 2018, the app contain eight question about history of Nigeria the user can enter a text to responsed the question or thick the answer.
